@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 22732925}
   m_Layer: 0
   m_Name: AR Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -443,7 +443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 4776765576899091622, guid: 3738bd65ede154463b2c35064b9e5fdb,
     type: 3}
-  m_DetectionMode: 1
+  m_DetectionMode: -1
 --- !u!114 &388525033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1472,7 +1472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d18493c660fa19943aabc2aff698bfb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arObject: {fileID: 9123841042697919811, guid: 329a451b756338248b98d23d0a233dee,
+  arObject: {fileID: 5342359472078890268, guid: b4c5ae7649842774582b6686deff4055,
     type: 3}
   arRaycastManager: {fileID: 388525033}
   speed: 0.25

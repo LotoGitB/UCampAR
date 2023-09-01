@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ExampleAssets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ImageManager.unity
     guid: 20ac73fa5e6c0e746abb4cd91a2594d9
+  - enabled: 1
+    path: Assets/Scenes/Castle.unity
+    guid: d3cde64c4ce3579419c3777b59a84825
   m_configObjects:
     AR Foundation RemoteARFoundationRemoteLoaderSettings: {fileID: 11400000, guid: cb1b7765b5fc39a47a4edb7b33d0aa74,
       type: 2}

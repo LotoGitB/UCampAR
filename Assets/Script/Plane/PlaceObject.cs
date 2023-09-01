@@ -57,11 +57,19 @@ public class PlaceObject : MonoBehaviour
     if (bearStatue == null && hits.Count > 0)
     {
       gameObject.AddComponent<ARAnchor>();
-      bearStatue = Instantiate(arObject,  hits[0].pose.position, Quaternion.identity, gameObject.transform);
+      bearStatue = Instantiate(arObject, hits[0].pose.position, arObject.transform.rotation, gameObject.transform);
+      Vector3 lookPos = Camera.main.transform.position - bearStatue.transform.position;
+      lookPos.x = 0;
+      bearStatue.transform.LookAt(lookPos);
     }
 
     if (hits.Count > 0 && posicion)
+    {
       bearStatue.transform.position = hits[0].pose.position;
+      Vector3 lookPos = Camera.main.transform.position - bearStatue.transform.position;
+      lookPos.x = 0;
+      bearStatue.transform.LookAt(lookPos);
+    }
   }
 
 
